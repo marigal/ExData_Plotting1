@@ -20,6 +20,6 @@ dataset$Global_active_power<-as.numeric(as.character((dataset$Global_active_powe
 #-----------------------------------------------------------------
 #Plot 1.
 #-----------------------------------------------------------------
-png(file="plot1.png", width=480, height=480, units="px")
+png(file="./figure/plot1.png", width=480, height=480, units="px")
 hist(dataset$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 dev.off()
